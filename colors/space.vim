@@ -24,7 +24,6 @@ set t_Co=256
 let g:colors_name = "space"
 
 "hi WildMenu -- no settings --
-"hi SignColumn -- no settings --
 "hi Typedef -- no settings --
 "hi CTagsMember -- no settings --
 "hi CTagsGlobalConstant -- no settings --
@@ -162,3 +161,6 @@ hi rubyinclude guifg=#bd57e5 guibg=NONE guisp=NONE gui=NONE ctermfg=134 ctermbg=
 hi cssclassname guifg=#ffe765 guibg=NONE guisp=NONE gui=NONE ctermfg=221 ctermbg=NONE cterm=NONE
 hi yamlkey guifg=#bd57e5 guibg=NONE guisp=NONE gui=NONE ctermfg=134 ctermbg=NONE cterm=NONE
 hi rubyoperator guifg=#bd57e5 guibg=NONE guisp=NONE gui=NONE ctermfg=134 ctermbg=NONE cterm=NONE
+
+" Links
+hi! link SignColumn Normal
